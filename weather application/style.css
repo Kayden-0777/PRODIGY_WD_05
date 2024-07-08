@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+.box{
+    width: 450px;
+    max-width: 490px;
+    /*background: linear-gradient(340deg,green,yellow);*/
+    background: linear-gradient(390deg,rgb(174, 160, 238),rgb(88, 192, 244));
+    color: rgb(3, 69, 250);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 30px 15px rgb(156, 156, 210);
+    opacity: 70%;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border-radius: 37px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 7;
+    margin-right: 16px;
+    flex:1;
+    font-size: 17;
+    padding-left: 15px;
+    height: 40px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.search button img{
+    width: 17px;
+    cursor: pointer;
+}
+.search button:hover{
+    transition-duration: 1s;
+    background: linear-gradient(340deg,rgb(174, 160, 238),rgb(88, 192, 244));
+    transition-delay: 0.7s;
+}
+.icon{
+    width: 230px;
+    margin-top: 35px;
+}
+.weth h1{
+    font-size: 70px;
+    font-weight: 370;
+    margin-top: 0;
+}
+.weth h2{
+    font-size: 35px;
+    font-weight: 450;
+    margin-top: 3px;
+}
+.extDet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+.col1{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.col1 img{
+    width: 40px;
+    margin-right: 10px;
+    margin-left:50;
+
+}
+body{
+    background-image:url(https://static.vecteezy.com/system/resources/previews/029/841/571/non_2x/rainbow-in-the-bright-blue-sky-ai-generative-free-photo.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.humidity, .wind{
+    font-size: 17;
+    margin-top: -7;
+}
+.weth{
+    display: none;
+}
